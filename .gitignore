@@ -1,0 +1,7 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea
+.DS_STORE
+plugins/
+platforms
+nbproject
+hooks
