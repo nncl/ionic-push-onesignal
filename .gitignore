@@ -5,3 +5,5 @@ plugins/
 platforms
 nbproject
 hooks
+bower_components/
+node_modules/

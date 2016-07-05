@@ -42,6 +42,8 @@
 - (void)setSubscription:(CDVInvokedUrlCommand*)command;
 - (void)postNotification:(CDVInvokedUrlCommand*)command;
 - (void)setLogLevel:(CDVInvokedUrlCommand*)command;
+- (void)promptLocation:(CDVInvokedUrlCommand*)command;
+- (void)setEmail:(CDVInvokedUrlCommand*)command;
 
 // Android Only
 - (void)enableVibrate:(CDVInvokedUrlCommand*)command;

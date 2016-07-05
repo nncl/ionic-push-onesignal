@@ -22,9 +22,9 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
     }
   // Enable to debug issues
   window.plugins.OneSignal.setLogLevel({logLevel: 0, visualLevel: 0});
-  
+
   //the callBack function called when we click on the notification received
-  var notificationOpenedCallback = function(jsonData) 
+  var notificationOpenedCallback = function(jsonData)
   {
     // alert("Notification received:\n" + JSON.stringify(jsonData));
     $ionicPopup.alert({
@@ -34,13 +34,13 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
   };
 
   //init function to use OneSignal service and GCM sender ID
-  window.plugins.OneSignal.init("7cc7eb69-5b26-47d3-9a67-ec032a8b3514",
-                                 {googleProjectNumber: "911535071386"},
+  window.plugins.OneSignal.init("f9e1d006-a62b-4c9c-b5cd-6b5e383802b5",
+                                 {googleProjectNumber: "928390723881"},
                                  notificationOpenedCallback);
   //subscribe to the service
   window.plugins.OneSignal.setSubscription(true);
   //activating the reception of push notification when the app is working also
-  window.plugins.OneSignal.enableNotificationsWhenActive(true);                                 
+  window.plugins.OneSignal.enableNotificationsWhenActive(true);
 })
 })
 
