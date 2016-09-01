@@ -34,8 +34,8 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
   };
 
   //init function to use OneSignal service and GCM sender ID
-  window.plugins.OneSignal.init("f9e1d006-a62b-4c9c-b5cd-6b5e383802b5",
-                                 {googleProjectNumber: "928390723881"},
+  window.plugins.OneSignal.init("d1946669-a78c-4934-a708-8815c855cc4e",
+                                 {googleProjectNumber: "506350226596"},
                                  notificationOpenedCallback);
   //subscribe to the service
   window.plugins.OneSignal.setSubscription(true);

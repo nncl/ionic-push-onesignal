@@ -7,25 +7,25 @@
         "files": {}
     },
     "installed_plugins": {
-        "cordova-plugin-console": {
-            "PACKAGE_NAME": "com.ionicframework.pushnotifappdemo701594"
-        },
         "cordova-plugin-device": {
             "PACKAGE_NAME": "com.ionicframework.pushnotifappdemo701594"
         },
-        "cordova-plugin-statusbar": {
+        "cordova-plugin-console": {
             "PACKAGE_NAME": "com.ionicframework.pushnotifappdemo701594"
         },
         "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.ionicframework.pushnotifappdemo701594"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.ionicframework.pushnotifappdemo701594"
+        },
+        "cordova-plugin-statusbar": {
             "PACKAGE_NAME": "com.ionicframework.pushnotifappdemo701594"
         },
         "ionic-plugin-keyboard": {
             "PACKAGE_NAME": "com.ionicframework.pushnotifappdemo701594"
         },
         "onesignal-cordova-plugin": {
-            "PACKAGE_NAME": "com.ionicframework.pushnotifappdemo701594"
-        },
-        "cordova-plugin-splashscreen": {
             "PACKAGE_NAME": "com.ionicframework.pushnotifappdemo701594"
         }
     },
